@@ -1,0 +1,11 @@
+
+{
+    "tableName" : "UTILIZATORI" ,
+     "tableCol" : [
+        {"name" : "id","type":"INT AUTO_INCREMENT PRIMARY KEY" }, 
+        {"name" : "username","type":"VARCHAR(128) NOT NULL UNIQUE"},
+        {"name":"email","type":"VARCHAR(128) NOT NULL UNIQUE"},
+        {"name":"password","type":"VARCHAR(128) NOT NULL"},
+        {"name":"isBanned","type":"BOOLEAN DEFAULT FALSE"}
+    ]
+}
